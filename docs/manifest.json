@@ -1,0 +1,366 @@
+{
+  "homepages": [],
+  "source_base_path": "D:/workspace/Equinoccial/GestionEquinoccial/GestorEmisionPoliza",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Components.Rest.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Components.Rest.Rest.html",
+          "hash": "IlMfI0Geu68VOYdxaKzyLg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Components.Rest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Components.Rest.html",
+          "hash": "5JAzlCLUpXWg0US97x9Vsg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Controllers.GEPController.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Controllers.GEPController.html",
+          "hash": "uoHLa9ytz6Le4yB5ArEvng=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Controllers.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Controllers.html",
+          "hash": "SUhCVOpsQ6JM0mMdF6gRiQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.BitacoraIntentosSise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.BitacoraIntentosSise.html",
+          "hash": "m58OvnyVBRZSTkD/11paRA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest.html",
+          "hash": "UpW3izSkh/1P8W9Gi44mtQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.html",
+          "hash": "ray0D5AfVVCGRQucrJG5bQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.RespuestaSise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.RespuestaSise.html",
+          "hash": "aUvcBq+WlPNfijvyOhYTMA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.SiseServiceSettings.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.SiseServiceSettings.html",
+          "hash": "cqkuKeTd8JETADNGeGXgbg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.html",
+          "hash": "sp9Dc1JUYzE9SDWQ0kgP1Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.html",
+          "hash": "aEVlDmC66u7LVQ54RKoDlA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Entities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Entities.html",
+          "hash": "I+7xTnvwZCbPyWRmNt1vOw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Servicio.BDD.CosmosDbService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Servicio.BDD.CosmosDbService.html",
+          "hash": "4Y5C9KJ4A4/PCj9vgAcnRg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Servicio.BDD.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Servicio.BDD.html",
+          "hash": "B3EKO14EXT8GIsdW7Opmrg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.html",
+          "hash": "FpEcC7iOD3Udzwjh2wLkmA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Servicio.Calendarizacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Servicio.Calendarizacion.html",
+          "hash": "0vXxTe0BdFLNrRQdTlCfeg=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Servicio.Implementacion.GEPServicio.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Servicio.Implementacion.GEPServicio.html",
+          "hash": "MBvMkSCMB2hSouPdMFzs9Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Servicio.Implementacion.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Servicio.Implementacion.html",
+          "hash": "YpGKBdxm9y1zTYd2h4b+lA=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.Startup.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.Startup.html",
+          "hash": "RaZur/Z093edIUgGdvcOyw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GestorEmisionPoliza.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GestorEmisionPoliza.html",
+          "hash": "4LS2a10BGUJtzGGaArO5tQ=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "api/index.md",
+      "output": {
+        ".html": {
+          "relative_path": "api/index.html",
+          "hash": "9AnwBHeXovm4/pfWtfzUTw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "pnWpk6loeMrx+jx65h9XFQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/intro.html",
+          "hash": "mTKuisipgX5twJKXJKr7bw=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "articles/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "articles/toc.html",
+          "hash": "gB8AESyvNru97tzIZofEEg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "B+yAcOMmNmNJHQCKvVcL+w=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "EIhwD2+o19OxxQFCB6JJTg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": true,
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 3
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 20,
+          "skipped_file_count": 20
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}
