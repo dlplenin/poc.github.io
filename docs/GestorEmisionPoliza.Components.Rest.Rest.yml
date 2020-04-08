@@ -31,6 +31,7 @@ items:
     content: 'public class Rest : IRest'
     content.vb: >-
       Public Class Rest
+
           Implements IRest
   inheritance:
   - System.Object

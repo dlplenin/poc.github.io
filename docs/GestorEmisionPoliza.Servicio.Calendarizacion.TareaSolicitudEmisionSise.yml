@@ -31,6 +31,7 @@ items:
     content: 'public class TareaSolicitudEmisionSise : IJob'
     content.vb: >-
       Public Class TareaSolicitudEmisionSise
+
           Implements IJob
   inheritance:
   - System.Object

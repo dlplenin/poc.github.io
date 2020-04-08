@@ -36,7 +36,9 @@ items:
       <Route("api/solicitud/emision")>
 
       Public Class GEPController
+
           Inherits Controller
+
           Implements IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable
   inheritance:
   - System.Object
