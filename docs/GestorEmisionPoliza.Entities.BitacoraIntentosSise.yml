@@ -1,0 +1,241 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  commentId: T:GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  id: BitacoraIntentosSise
+  parent: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado
+  - GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento
+  - GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje
+  langs:
+  - csharp
+  - vb
+  name: BitacoraIntentosSise
+  nameWithType: BitacoraIntentosSise
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/BitacoraIntentosSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: BitacoraIntentosSise
+    path: Entities/BitacoraIntentosSise.cs
+    startLine: 5
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: public class BitacoraIntentosSise
+    content.vb: Public Class BitacoraIntentosSise
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento
+  commentId: P:GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento
+  id: FechaIntento
+  parent: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  langs:
+  - csharp
+  - vb
+  name: FechaIntento
+  nameWithType: BitacoraIntentosSise.FechaIntento
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/BitacoraIntentosSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: FechaIntento
+    path: Entities/BitacoraIntentosSise.cs
+    startLine: 7
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "fechaIntento")]
+
+      public DateTime FechaIntento { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <JsonProperty(PropertyName:="fechaIntento")>
+
+      Public Property FechaIntento As Date
+  overload: GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: fechaIntento
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje
+  commentId: P:GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje
+  id: Mensaje
+  parent: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  langs:
+  - csharp
+  - vb
+  name: Mensaje
+  nameWithType: BitacoraIntentosSise.Mensaje
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/BitacoraIntentosSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Mensaje
+    path: Entities/BitacoraIntentosSise.cs
+    startLine: 13
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "mensaje")]
+
+      public string Mensaje { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(PropertyName:="mensaje")>
+
+      Public Property Mensaje As String
+  overload: GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: mensaje
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado
+  commentId: P:GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado
+  id: CodigoEstado
+  parent: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  langs:
+  - csharp
+  - vb
+  name: CodigoEstado
+  nameWithType: BitacoraIntentosSise.CodigoEstado
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/BitacoraIntentosSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: CodigoEstado
+    path: Entities/BitacoraIntentosSise.cs
+    startLine: 19
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "codigoEstado")]
+
+      public int CodigoEstado { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: >-
+      <JsonProperty(PropertyName:="codigoEstado")>
+
+      Public Property CodigoEstado As Integer
+  overload: GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: codigoEstado
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento*
+  commentId: Overload:GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento
+  name: FechaIntento
+  nameWithType: BitacoraIntentosSise.FechaIntento
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise.FechaIntento
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje*
+  commentId: Overload:GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje
+  name: Mensaje
+  nameWithType: BitacoraIntentosSise.Mensaje
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise.Mensaje
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado*
+  commentId: Overload:GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado
+  name: CodigoEstado
+  nameWithType: BitacoraIntentosSise.CodigoEstado
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise.CodigoEstado
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

@@ -1,0 +1,155 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities.RespuestaSise
+  commentId: T:GestorEmisionPoliza.Entities.RespuestaSise
+  id: RespuestaSise
+  parent: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.RespuestaSise.sn_error
+  - GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje
+  langs:
+  - csharp
+  - vb
+  name: RespuestaSise
+  nameWithType: RespuestaSise
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/RespuestaSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: RespuestaSise
+    path: Entities/RespuestaSise.cs
+    startLine: 7
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: public class RespuestaSise
+    content.vb: Public Class RespuestaSise
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje
+  commentId: P:GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje
+  id: txt_mensaje
+  parent: GestorEmisionPoliza.Entities.RespuestaSise
+  langs:
+  - csharp
+  - vb
+  name: txt_mensaje
+  nameWithType: RespuestaSise.txt_mensaje
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/RespuestaSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: txt_mensaje
+    path: Entities/RespuestaSise.cs
+    startLine: 12
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nMensaje retornado por el Sise\n"
+  example: []
+  syntax:
+    content: public string txt_mensaje { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property txt_mensaje As String
+  overload: GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.RespuestaSise.sn_error
+  commentId: P:GestorEmisionPoliza.Entities.RespuestaSise.sn_error
+  id: sn_error
+  parent: GestorEmisionPoliza.Entities.RespuestaSise
+  langs:
+  - csharp
+  - vb
+  name: sn_error
+  nameWithType: RespuestaSise.sn_error
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise.sn_error
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/RespuestaSise.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: sn_error
+    path: Entities/RespuestaSise.cs
+    startLine: 16
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nError retornado por el Sise o el código Http de respuesta\n"
+  example: []
+  syntax:
+    content: public int sn_error { get; set; }
+    parameters: []
+    return:
+      type: System.Int32
+    content.vb: Public Property sn_error As Integer
+  overload: GestorEmisionPoliza.Entities.RespuestaSise.sn_error*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje*
+  commentId: Overload:GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje
+  name: txt_mensaje
+  nameWithType: RespuestaSise.txt_mensaje
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise.txt_mensaje
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GestorEmisionPoliza.Entities.RespuestaSise.sn_error*
+  commentId: Overload:GestorEmisionPoliza.Entities.RespuestaSise.sn_error
+  name: sn_error
+  nameWithType: RespuestaSise.sn_error
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise.sn_error
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32

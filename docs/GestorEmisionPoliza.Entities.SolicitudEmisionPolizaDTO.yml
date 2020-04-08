@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  commentId: T:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  id: SolicitudEmisionPolizaDTO
+  parent: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision
+  - GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON
+  langs:
+  - csharp
+  - vb
+  name: SolicitudEmisionPolizaDTO
+  nameWithType: SolicitudEmisionPolizaDTO
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SolicitudEmisionPolizaDTO.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: SolicitudEmisionPolizaDTO
+    path: Entities/SolicitudEmisionPolizaDTO.cs
+    startLine: 8
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: public class SolicitudEmisionPolizaDTO
+    content.vb: Public Class SolicitudEmisionPolizaDTO
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision
+  commentId: P:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision
+  id: FechaEmision
+  parent: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  langs:
+  - csharp
+  - vb
+  name: FechaEmision
+  nameWithType: SolicitudEmisionPolizaDTO.FechaEmision
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SolicitudEmisionPolizaDTO.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: FechaEmision
+    path: Entities/SolicitudEmisionPolizaDTO.cs
+    startLine: 16
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nFecha en que se recibe el registro\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "fechaEmision")]
+
+      public DateTime FechaEmision { get; set; }
+    parameters: []
+    return:
+      type: System.DateTime
+    content.vb: >-
+      <JsonProperty(PropertyName:="fechaEmision")>
+
+      Public Property FechaEmision As Date
+  overload: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: fechaEmision
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON
+  commentId: P:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON
+  id: SolicitudJSON
+  parent: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  langs:
+  - csharp
+  - vb
+  name: SolicitudJSON
+  nameWithType: SolicitudEmisionPolizaDTO.SolicitudJSON
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SolicitudEmisionPolizaDTO.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: SolicitudJSON
+    path: Entities/SolicitudEmisionPolizaDTO.cs
+    startLine: 22
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nTrama de la póliza como string\n"
+  example: []
+  syntax:
+    content: >-
+      [JsonProperty(PropertyName = "solicitudJSON")]
+
+      public string SolicitudJSON { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: >-
+      <JsonProperty(PropertyName:="solicitudJSON")>
+
+      Public Property SolicitudJSON As String
+  overload: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON*
+  attributes:
+  - type: Newtonsoft.Json.JsonPropertyAttribute
+    ctor: Newtonsoft.Json.JsonPropertyAttribute.#ctor
+    arguments: []
+    namedArguments:
+    - name: PropertyName
+      type: System.String
+      value: solicitudJSON
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision*
+  commentId: Overload:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision
+  name: FechaEmision
+  nameWithType: SolicitudEmisionPolizaDTO.FechaEmision
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.FechaEmision
+- uid: System.DateTime
+  commentId: T:System.DateTime
+  parent: System
+  isExternal: true
+  name: DateTime
+  nameWithType: DateTime
+  fullName: System.DateTime
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON*
+  commentId: Overload:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON
+  name: SolicitudJSON
+  nameWithType: SolicitudEmisionPolizaDTO.SolicitudJSON
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO.SolicitudJSON
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String

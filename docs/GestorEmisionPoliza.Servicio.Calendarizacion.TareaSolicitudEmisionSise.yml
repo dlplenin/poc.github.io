@@ -1,0 +1,235 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  commentId: T:GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  id: TareaSolicitudEmisionSise
+  parent: GestorEmisionPoliza.Servicio.Calendarizacion
+  children:
+  - GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)
+  - GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute(Quartz.IJobExecutionContext)
+  langs:
+  - csharp
+  - vb
+  name: TareaSolicitudEmisionSise
+  nameWithType: TareaSolicitudEmisionSise
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/Calendarizacion/TareasProgramadas.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: TareaSolicitudEmisionSise
+    path: Servicio/Calendarizacion/TareasProgramadas.cs
+    startLine: 12
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.Calendarizacion
+  summary: "\nManejo de la llamada calendarizada de llamada al Sise\n"
+  example: []
+  syntax:
+    content: 'public class TareaSolicitudEmisionSise : IJob'
+    content.vb: >-
+      Public Class TareaSolicitudEmisionSise
+          Implements IJob
+  inheritance:
+  - System.Object
+  implements:
+  - Quartz.IJob
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)
+  commentId: M:GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)
+  id: '#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)'
+  parent: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  langs:
+  - csharp
+  - vb
+  name: TareaSolicitudEmisionSise(IGEPServicio)
+  nameWithType: TareaSolicitudEmisionSise.TareaSolicitudEmisionSise(IGEPServicio)
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.TareaSolicitudEmisionSise(GestorEmisionPoliza.Servicio.IGEPServicio)
+  type: Constructor
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/Calendarizacion/TareasProgramadas.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: .ctor
+    path: Servicio/Calendarizacion/TareasProgramadas.cs
+    startLine: 20
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.Calendarizacion
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public TareaSolicitudEmisionSise(IGEPServicio gepServicio)
+    parameters:
+    - id: gepServicio
+      type: GestorEmisionPoliza.Servicio.IGEPServicio
+      description: Inyección de dependencia del servicio
+    content.vb: Public Sub New(gepServicio As IGEPServicio)
+  overload: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute(Quartz.IJobExecutionContext)
+  commentId: M:GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute(Quartz.IJobExecutionContext)
+  id: Execute(Quartz.IJobExecutionContext)
+  parent: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  langs:
+  - csharp
+  - vb
+  name: Execute(IJobExecutionContext)
+  nameWithType: TareaSolicitudEmisionSise.Execute(IJobExecutionContext)
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute(Quartz.IJobExecutionContext)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/Calendarizacion/TareasProgramadas.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Execute
+    path: Servicio/Calendarizacion/TareasProgramadas.cs
+    startLine: 30
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.Calendarizacion
+  summary: "\nEjecución de la tarea\n"
+  example: []
+  syntax:
+    content: public Task Execute(IJobExecutionContext context)
+    parameters:
+    - id: context
+      type: Quartz.IJobExecutionContext
+      description: IJobExecutionContext
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task
+    content.vb: Public Function Execute(context As IJobExecutionContext) As Task
+  overload: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute*
+  implements:
+  - Quartz.IJob.Execute(Quartz.IJobExecutionContext)
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion
+  commentId: N:GestorEmisionPoliza.Servicio.Calendarizacion
+  name: GestorEmisionPoliza.Servicio.Calendarizacion
+  nameWithType: GestorEmisionPoliza.Servicio.Calendarizacion
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Quartz.IJob
+  commentId: T:Quartz.IJob
+  parent: Quartz
+  isExternal: true
+  name: IJob
+  nameWithType: IJob
+  fullName: Quartz.IJob
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Quartz
+  commentId: N:Quartz
+  isExternal: true
+  name: Quartz
+  nameWithType: Quartz
+  fullName: Quartz
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.#ctor*
+  commentId: Overload:GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.#ctor
+  name: TareaSolicitudEmisionSise
+  nameWithType: TareaSolicitudEmisionSise.TareaSolicitudEmisionSise
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.TareaSolicitudEmisionSise
+- uid: GestorEmisionPoliza.Servicio.IGEPServicio
+  commentId: T:GestorEmisionPoliza.Servicio.IGEPServicio
+  parent: GestorEmisionPoliza.Servicio
+  name: IGEPServicio
+  nameWithType: IGEPServicio
+  fullName: GestorEmisionPoliza.Servicio.IGEPServicio
+- uid: GestorEmisionPoliza.Servicio
+  commentId: N:GestorEmisionPoliza.Servicio
+  name: GestorEmisionPoliza.Servicio
+  nameWithType: GestorEmisionPoliza.Servicio
+  fullName: GestorEmisionPoliza.Servicio
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute*
+  commentId: Overload:GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute
+  name: Execute
+  nameWithType: TareaSolicitudEmisionSise.Execute
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise.Execute
+- uid: Quartz.IJob.Execute(Quartz.IJobExecutionContext)
+  commentId: M:Quartz.IJob.Execute(Quartz.IJobExecutionContext)
+  parent: Quartz.IJob
+  isExternal: true
+  name: Execute(IJobExecutionContext)
+  nameWithType: IJob.Execute(IJobExecutionContext)
+  fullName: Quartz.IJob.Execute(Quartz.IJobExecutionContext)
+  spec.csharp:
+  - uid: Quartz.IJob.Execute(Quartz.IJobExecutionContext)
+    name: Execute
+    nameWithType: IJob.Execute
+    fullName: Quartz.IJob.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Quartz.IJobExecutionContext
+    name: IJobExecutionContext
+    nameWithType: IJobExecutionContext
+    fullName: Quartz.IJobExecutionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: Quartz.IJob.Execute(Quartz.IJobExecutionContext)
+    name: Execute
+    nameWithType: IJob.Execute
+    fullName: Quartz.IJob.Execute
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: Quartz.IJobExecutionContext
+    name: IJobExecutionContext
+    nameWithType: IJobExecutionContext
+    fullName: Quartz.IJobExecutionContext
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Quartz.IJobExecutionContext
+  commentId: T:Quartz.IJobExecutionContext
+  parent: Quartz
+  isExternal: true
+  name: IJobExecutionContext
+  nameWithType: IJobExecutionContext
+  fullName: Quartz.IJobExecutionContext
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks

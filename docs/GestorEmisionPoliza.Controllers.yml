@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Controllers
+  commentId: N:GestorEmisionPoliza.Controllers
+  id: GestorEmisionPoliza.Controllers
+  children:
+  - GestorEmisionPoliza.Controllers.GEPController
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza.Controllers
+  nameWithType: GestorEmisionPoliza.Controllers
+  fullName: GestorEmisionPoliza.Controllers
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Controllers.GEPController
+  commentId: T:GestorEmisionPoliza.Controllers.GEPController
+  name: GEPController
+  nameWithType: GEPController
+  fullName: GestorEmisionPoliza.Controllers.GEPController

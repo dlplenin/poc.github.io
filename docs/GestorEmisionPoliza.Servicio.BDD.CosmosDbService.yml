@@ -1,0 +1,524 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  commentId: T:GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  id: CosmosDbService
+  parent: GestorEmisionPoliza.Servicio.BDD
+  children:
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService.#ctor(Microsoft.Azure.Cosmos.CosmosClient,System.String,System.String)
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync(System.String)
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync(System.String)
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync(System.String)
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync(System.String,GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  langs:
+  - csharp
+  - vb
+  name: CosmosDbService
+  nameWithType: CosmosDbService
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: CosmosDbService
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 11
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nManejo de base de datos\n"
+  example: []
+  syntax:
+    content: 'public class CosmosDbService : ICosmosDbService'
+    content.vb: >-
+      Public Class CosmosDbService
+          Implements ICosmosDbService
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.#ctor(Microsoft.Azure.Cosmos.CosmosClient,System.String,System.String)
+  commentId: M:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.#ctor(Microsoft.Azure.Cosmos.CosmosClient,System.String,System.String)
+  id: '#ctor(Microsoft.Azure.Cosmos.CosmosClient,System.String,System.String)'
+  parent: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: CosmosDbService(CosmosClient, String, String)
+  nameWithType: CosmosDbService.CosmosDbService(CosmosClient, String, String)
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.CosmosDbService(Microsoft.Azure.Cosmos.CosmosClient, System.String, System.String)
+  type: Constructor
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: .ctor
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 21
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nInyección de dependencia desde la inicialización de BDD\n"
+  example: []
+  syntax:
+    content: public CosmosDbService(CosmosClient dbClient, string databaseName, string containerName)
+    parameters:
+    - id: dbClient
+      type: Microsoft.Azure.Cosmos.CosmosClient
+      description: Azure.Ccsmos.CosmosClient
+    - id: databaseName
+      type: System.String
+      description: Nombre de la base de datos
+    - id: containerName
+      type: System.String
+      description: Nombre del contenedor
+    content.vb: Public Sub New(dbClient As CosmosClient, databaseName As String, containerName As String)
+  overload: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  commentId: M:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  id: AddItemAsync(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  parent: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: AddItemAsync(SolicitudEmisionPolizaDTO)
+  nameWithType: CosmosDbService.AddItemAsync(SolicitudEmisionPolizaDTO)
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: AddItemAsync
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 34
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nInsertar un item en base da datos.\n"
+  example: []
+  syntax:
+    content: public Task AddItemAsync(SolicitudEmisionPolizaDTO item)
+    parameters:
+    - id: item
+      type: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+      description: Instancia del tipo SolicitudEmisionPolizaDTO
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task
+    content.vb: Public Function AddItemAsync(item As SolicitudEmisionPolizaDTO) As Task
+  overload: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync(System.String)
+  commentId: M:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync(System.String)
+  id: DeleteItemAsync(System.String)
+  parent: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: DeleteItemAsync(String)
+  nameWithType: CosmosDbService.DeleteItemAsync(String)
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: DeleteItemAsync
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 52
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nEliminar un item de la base de datos.\n"
+  example: []
+  syntax:
+    content: public Task DeleteItemAsync(string ticket)
+    parameters:
+    - id: ticket
+      type: System.String
+      description: Id del registro
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task
+    content.vb: Public Function DeleteItemAsync(ticket As String) As Task
+  overload: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync(System.String)
+  commentId: M:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync(System.String)
+  id: GetItemAsync(System.String)
+  parent: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: GetItemAsync(String)
+  nameWithType: CosmosDbService.GetItemAsync(String)
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: GetItemAsync
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 62
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nRucuperar un registro de la base de datos.\n"
+  example: []
+  syntax:
+    content: public Task<SolicitudEmisionPolizaDTO> GetItemAsync(string ticket)
+    parameters:
+    - id: ticket
+      type: System.String
+      description: Id del registro
+    return:
+      type: System.Threading.Tasks.Task{GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO}
+      description: Un registro del tipo SolicitudEmisionPolizaDTO.
+    content.vb: Public Function GetItemAsync(ticket As String) As Task(Of SolicitudEmisionPolizaDTO)
+  overload: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync(System.String)
+  commentId: M:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync(System.String)
+  id: GetItemsAsync(System.String)
+  parent: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: GetItemsAsync(String)
+  nameWithType: CosmosDbService.GetItemsAsync(String)
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync(System.String)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: GetItemsAsync
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 81
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nRecuperar una lista de registros.\n"
+  example: []
+  syntax:
+    content: public Task<IEnumerable<SolicitudEmisionPolizaDTO>> GetItemsAsync(string queryString)
+    parameters:
+    - id: queryString
+      type: System.String
+      description: Sentencia SQL
+    return:
+      type: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO}}
+      description: Una lista del tipo SolicitudEmisionPolizaDTO.
+    content.vb: Public Function GetItemsAsync(queryString As String) As Task(Of IEnumerable(Of SolicitudEmisionPolizaDTO))
+  overload: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync(System.String,GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  commentId: M:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync(System.String,GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  id: UpdateItemAsync(System.String,GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  parent: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: UpdateItemAsync(String, SolicitudEmisionPolizaDTO)
+  nameWithType: CosmosDbService.UpdateItemAsync(String, SolicitudEmisionPolizaDTO)
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync(System.String, GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Servicio/BDD/CosmosDBService.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: UpdateItemAsync
+    path: Servicio/BDD/CosmosDBService.cs
+    startLine: 101
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Servicio.BDD
+  summary: "\nActualizar un registro.\n"
+  example: []
+  syntax:
+    content: public Task UpdateItemAsync(string ticket, SolicitudEmisionPolizaDTO item)
+    parameters:
+    - id: ticket
+      type: System.String
+      description: Id del registro.
+    - id: item
+      type: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+      description: Instancia del tipo SolicitudEmisionPolizaDTO.
+    return:
+      type: System.Threading.Tasks.Task
+      description: Task
+    content.vb: Public Function UpdateItemAsync(ticket As String, item As SolicitudEmisionPolizaDTO) As Task
+  overload: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Servicio.BDD
+  commentId: N:GestorEmisionPoliza.Servicio.BDD
+  name: GestorEmisionPoliza.Servicio.BDD
+  nameWithType: GestorEmisionPoliza.Servicio.BDD
+  fullName: GestorEmisionPoliza.Servicio.BDD
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.#ctor*
+  commentId: Overload:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.#ctor
+  name: CosmosDbService
+  nameWithType: CosmosDbService.CosmosDbService
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.CosmosDbService
+- uid: Microsoft.Azure.Cosmos.CosmosClient
+  commentId: T:Microsoft.Azure.Cosmos.CosmosClient
+  parent: Microsoft.Azure.Cosmos
+  isExternal: true
+  name: CosmosClient
+  nameWithType: CosmosClient
+  fullName: Microsoft.Azure.Cosmos.CosmosClient
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.Azure.Cosmos
+  commentId: N:Microsoft.Azure.Cosmos
+  isExternal: true
+  name: Microsoft.Azure.Cosmos
+  nameWithType: Microsoft.Azure.Cosmos
+  fullName: Microsoft.Azure.Cosmos
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync*
+  commentId: Overload:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync
+  name: AddItemAsync
+  nameWithType: CosmosDbService.AddItemAsync
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.AddItemAsync
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  commentId: T:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  parent: GestorEmisionPoliza.Entities
+  name: SolicitudEmisionPolizaDTO
+  nameWithType: SolicitudEmisionPolizaDTO
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+- uid: System.Threading.Tasks.Task
+  commentId: T:System.Threading.Tasks.Task
+  parent: System.Threading.Tasks
+  isExternal: true
+  name: Task
+  nameWithType: Task
+  fullName: System.Threading.Tasks.Task
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync*
+  commentId: Overload:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync
+  name: DeleteItemAsync
+  nameWithType: CosmosDbService.DeleteItemAsync
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.DeleteItemAsync
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync*
+  commentId: Overload:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync
+  name: GetItemAsync
+  nameWithType: CosmosDbService.GetItemAsync
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemAsync
+- uid: System.Threading.Tasks.Task{GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO}
+  commentId: T:System.Threading.Tasks.Task{GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<SolicitudEmisionPolizaDTO>
+  nameWithType: Task<SolicitudEmisionPolizaDTO>
+  fullName: System.Threading.Tasks.Task<GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO>
+  nameWithType.vb: Task(Of SolicitudEmisionPolizaDTO)
+  fullName.vb: System.Threading.Tasks.Task(Of GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  name.vb: Task(Of SolicitudEmisionPolizaDTO)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+    name: SolicitudEmisionPolizaDTO
+    nameWithType: SolicitudEmisionPolizaDTO
+    fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+    name: SolicitudEmisionPolizaDTO
+    nameWithType: SolicitudEmisionPolizaDTO
+    fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync*
+  commentId: Overload:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync
+  name: GetItemsAsync
+  nameWithType: CosmosDbService.GetItemsAsync
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.GetItemsAsync
+- uid: System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO}}
+  commentId: T:System.Threading.Tasks.Task{System.Collections.Generic.IEnumerable{GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO}}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IEnumerable<SolicitudEmisionPolizaDTO>>
+  nameWithType: Task<IEnumerable<SolicitudEmisionPolizaDTO>>
+  fullName: System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO>>
+  nameWithType.vb: Task(Of IEnumerable(Of SolicitudEmisionPolizaDTO))
+  fullName.vb: System.Threading.Tasks.Task(Of System.Collections.Generic.IEnumerable(Of GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO))
+  name.vb: Task(Of IEnumerable(Of SolicitudEmisionPolizaDTO))
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+    name: SolicitudEmisionPolizaDTO
+    nameWithType: SolicitudEmisionPolizaDTO
+    fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: System.Collections.Generic.IEnumerable`1
+    name: IEnumerable
+    nameWithType: IEnumerable
+    fullName: System.Collections.Generic.IEnumerable
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+    name: SolicitudEmisionPolizaDTO
+    nameWithType: SolicitudEmisionPolizaDTO
+    fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  - name: )
+    nameWithType: )
+    fullName: )
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync*
+  commentId: Overload:GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync
+  name: UpdateItemAsync
+  nameWithType: CosmosDbService.UpdateItemAsync
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService.UpdateItemAsync

@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza
+  commentId: N:GestorEmisionPoliza
+  id: GestorEmisionPoliza
+  children:
+  - GestorEmisionPoliza.Startup
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza
+  nameWithType: GestorEmisionPoliza
+  fullName: GestorEmisionPoliza
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Startup
+  commentId: T:GestorEmisionPoliza.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: GestorEmisionPoliza.Startup

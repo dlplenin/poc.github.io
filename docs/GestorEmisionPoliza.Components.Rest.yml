@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Components.Rest
+  commentId: N:GestorEmisionPoliza.Components.Rest
+  id: GestorEmisionPoliza.Components.Rest
+  children:
+  - GestorEmisionPoliza.Components.Rest.Rest
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza.Components.Rest
+  nameWithType: GestorEmisionPoliza.Components.Rest
+  fullName: GestorEmisionPoliza.Components.Rest
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Components.Rest.Rest
+  commentId: T:GestorEmisionPoliza.Components.Rest.Rest
+  name: Rest
+  nameWithType: Rest
+  fullName: GestorEmisionPoliza.Components.Rest.Rest

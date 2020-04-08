@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Servicio.BDD
+  commentId: N:GestorEmisionPoliza.Servicio.BDD
+  id: GestorEmisionPoliza.Servicio.BDD
+  children:
+  - GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza.Servicio.BDD
+  nameWithType: GestorEmisionPoliza.Servicio.BDD
+  fullName: GestorEmisionPoliza.Servicio.BDD
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  commentId: T:GestorEmisionPoliza.Servicio.BDD.CosmosDbService
+  name: CosmosDbService
+  nameWithType: CosmosDbService
+  fullName: GestorEmisionPoliza.Servicio.BDD.CosmosDbService

@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Startup
+  commentId: T:GestorEmisionPoliza.Startup
+  id: Startup
+  parent: GestorEmisionPoliza
+  children:
+  - GestorEmisionPoliza.Startup.#ctor
+  langs:
+  - csharp
+  - vb
+  name: Startup
+  nameWithType: Startup
+  fullName: GestorEmisionPoliza.Startup
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Startup.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Startup
+    path: Startup.cs
+    startLine: 25
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza
+  syntax:
+    content: public class Startup
+    content.vb: Public Class Startup
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Startup.#ctor
+  commentId: M:GestorEmisionPoliza.Startup.#ctor
+  id: '#ctor'
+  parent: GestorEmisionPoliza.Startup
+  langs:
+  - csharp
+  - vb
+  name: Startup()
+  nameWithType: Startup.Startup()
+  fullName: GestorEmisionPoliza.Startup.Startup()
+  type: Constructor
+  source:
+    remote:
+      path: GestorEmisionPoliza/Startup.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: .ctor
+    path: Startup.cs
+    startLine: 35
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza
+  summary: "\nConfiguration personalizado para leer las variables que correspondan a cada ambiente.\n"
+  example: []
+  syntax:
+    content: public Startup()
+    content.vb: Public Sub New
+  overload: GestorEmisionPoliza.Startup.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza
+  commentId: N:GestorEmisionPoliza
+  name: GestorEmisionPoliza
+  nameWithType: GestorEmisionPoliza
+  fullName: GestorEmisionPoliza
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Startup.#ctor*
+  commentId: Overload:GestorEmisionPoliza.Startup.#ctor
+  name: Startup
+  nameWithType: Startup.Startup
+  fullName: GestorEmisionPoliza.Startup.Startup

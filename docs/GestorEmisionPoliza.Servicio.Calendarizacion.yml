@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion
+  commentId: N:GestorEmisionPoliza.Servicio.Calendarizacion
+  id: GestorEmisionPoliza.Servicio.Calendarizacion
+  children:
+  - GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza.Servicio.Calendarizacion
+  nameWithType: GestorEmisionPoliza.Servicio.Calendarizacion
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  commentId: T:GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise
+  name: TareaSolicitudEmisionSise
+  nameWithType: TareaSolicitudEmisionSise
+  fullName: GestorEmisionPoliza.Servicio.Calendarizacion.TareaSolicitudEmisionSise

@@ -1,0 +1,254 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Components.Rest.Rest
+  commentId: T:GestorEmisionPoliza.Components.Rest.Rest
+  id: Rest
+  parent: GestorEmisionPoliza.Components.Rest
+  children:
+  - GestorEmisionPoliza.Components.Rest.Rest.#ctor(Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings})
+  - GestorEmisionPoliza.Components.Rest.Rest.Get(System.String)
+  langs:
+  - csharp
+  - vb
+  name: Rest
+  nameWithType: Rest
+  fullName: GestorEmisionPoliza.Components.Rest.Rest
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Components/Rest/Rest.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Rest
+    path: Components/Rest/Rest.cs
+    startLine: 11
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Components.Rest
+  summary: "\nWrapper para hacer llamadas Rest\n"
+  example: []
+  syntax:
+    content: 'public class Rest : IRest'
+    content.vb: >-
+      Public Class Rest
+          Implements IRest
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Components.Rest.Rest.#ctor(Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings})
+  commentId: M:GestorEmisionPoliza.Components.Rest.Rest.#ctor(Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings})
+  id: '#ctor(Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings})'
+  parent: GestorEmisionPoliza.Components.Rest.Rest
+  langs:
+  - csharp
+  - vb
+  name: Rest(IOptions<SiseServiceSettings>)
+  nameWithType: Rest.Rest(IOptions<SiseServiceSettings>)
+  fullName: GestorEmisionPoliza.Components.Rest.Rest.Rest(Microsoft.Extensions.Options.IOptions<GestorEmisionPoliza.Entities.SiseServiceSettings>)
+  type: Constructor
+  source:
+    remote:
+      path: GestorEmisionPoliza/Components/Rest/Rest.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: .ctor
+    path: Components/Rest/Rest.cs
+    startLine: 19
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Components.Rest
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public Rest(IOptions<SiseServiceSettings> siseServiceSettings)
+    parameters:
+    - id: siseServiceSettings
+      type: Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings}
+      description: Inyección de Dependencia de variables
+    content.vb: Public Sub New(siseServiceSettings As IOptions(Of SiseServiceSettings))
+  overload: GestorEmisionPoliza.Components.Rest.Rest.#ctor*
+  nameWithType.vb: Rest.Rest(IOptions(Of SiseServiceSettings))
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+  fullName.vb: GestorEmisionPoliza.Components.Rest.Rest.Rest(Microsoft.Extensions.Options.IOptions(Of GestorEmisionPoliza.Entities.SiseServiceSettings))
+  name.vb: Rest(IOptions(Of SiseServiceSettings))
+- uid: GestorEmisionPoliza.Components.Rest.Rest.Get(System.String)
+  commentId: M:GestorEmisionPoliza.Components.Rest.Rest.Get(System.String)
+  id: Get(System.String)
+  parent: GestorEmisionPoliza.Components.Rest.Rest
+  langs:
+  - csharp
+  - vb
+  name: Get(String)
+  nameWithType: Rest.Get(String)
+  fullName: GestorEmisionPoliza.Components.Rest.Rest.Get(System.String)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Components/Rest/Rest.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Get
+    path: Components/Rest/Rest.cs
+    startLine: 29
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Components.Rest
+  summary: "\nOperación Get\n"
+  example: []
+  syntax:
+    content: public RespuestaSise Get(string requestValue)
+    parameters:
+    - id: requestValue
+      type: System.String
+      description: JSON body como string
+    return:
+      type: GestorEmisionPoliza.Entities.RespuestaSise
+      description: Objeto del tipo RespuestaSise
+    content.vb: Public Function Get(requestValue As String) As RespuestaSise
+  overload: GestorEmisionPoliza.Components.Rest.Rest.Get*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Components.Rest
+  commentId: N:GestorEmisionPoliza.Components.Rest
+  name: GestorEmisionPoliza.Components.Rest
+  nameWithType: GestorEmisionPoliza.Components.Rest
+  fullName: GestorEmisionPoliza.Components.Rest
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Components.Rest.Rest.#ctor*
+  commentId: Overload:GestorEmisionPoliza.Components.Rest.Rest.#ctor
+  name: Rest
+  nameWithType: Rest.Rest
+  fullName: GestorEmisionPoliza.Components.Rest.Rest.Rest
+- uid: Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings}
+  commentId: T:Microsoft.Extensions.Options.IOptions{GestorEmisionPoliza.Entities.SiseServiceSettings}
+  parent: Microsoft.Extensions.Options
+  definition: Microsoft.Extensions.Options.IOptions`1
+  name: IOptions<SiseServiceSettings>
+  nameWithType: IOptions<SiseServiceSettings>
+  fullName: Microsoft.Extensions.Options.IOptions<GestorEmisionPoliza.Entities.SiseServiceSettings>
+  nameWithType.vb: IOptions(Of SiseServiceSettings)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of GestorEmisionPoliza.Entities.SiseServiceSettings)
+  name.vb: IOptions(Of SiseServiceSettings)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GestorEmisionPoliza.Entities.SiseServiceSettings
+    name: SiseServiceSettings
+    nameWithType: SiseServiceSettings
+    fullName: GestorEmisionPoliza.Entities.SiseServiceSettings
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GestorEmisionPoliza.Entities.SiseServiceSettings
+    name: SiseServiceSettings
+    nameWithType: SiseServiceSettings
+    fullName: GestorEmisionPoliza.Entities.SiseServiceSettings
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options.IOptions`1
+  commentId: T:Microsoft.Extensions.Options.IOptions`1
+  isExternal: true
+  name: IOptions<TOptions>
+  nameWithType: IOptions<TOptions>
+  fullName: Microsoft.Extensions.Options.IOptions<TOptions>
+  nameWithType.vb: IOptions(Of TOptions)
+  fullName.vb: Microsoft.Extensions.Options.IOptions(Of TOptions)
+  name.vb: IOptions(Of TOptions)
+  spec.csharp:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: Microsoft.Extensions.Options.IOptions`1
+    name: IOptions
+    nameWithType: IOptions
+    fullName: Microsoft.Extensions.Options.IOptions
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TOptions
+    nameWithType: TOptions
+    fullName: TOptions
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: Microsoft.Extensions.Options
+  commentId: N:Microsoft.Extensions.Options
+  isExternal: true
+  name: Microsoft.Extensions.Options
+  nameWithType: Microsoft.Extensions.Options
+  fullName: Microsoft.Extensions.Options
+- uid: GestorEmisionPoliza.Components.Rest.Rest.Get*
+  commentId: Overload:GestorEmisionPoliza.Components.Rest.Rest.Get
+  name: Get
+  nameWithType: Rest.Get
+  fullName: GestorEmisionPoliza.Components.Rest.Rest.Get
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GestorEmisionPoliza.Entities.RespuestaSise
+  commentId: T:GestorEmisionPoliza.Entities.RespuestaSise
+  parent: GestorEmisionPoliza.Entities
+  name: RespuestaSise
+  nameWithType: RespuestaSise
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities

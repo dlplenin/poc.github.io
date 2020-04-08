@@ -1,0 +1,148 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities.SiseServiceSettings
+  commentId: T:GestorEmisionPoliza.Entities.SiseServiceSettings
+  id: SiseServiceSettings
+  parent: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.SiseServiceSettings.Resource
+  - GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL
+  langs:
+  - csharp
+  - vb
+  name: SiseServiceSettings
+  nameWithType: SiseServiceSettings
+  fullName: GestorEmisionPoliza.Entities.SiseServiceSettings
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SiseServiceSettings.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: SiseServiceSettings
+    path: Entities/SiseServiceSettings.cs
+    startLine: 2
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: public class SiseServiceSettings
+    content.vb: Public Class SiseServiceSettings
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL
+  commentId: P:GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL
+  id: ServiceBaseURL
+  parent: GestorEmisionPoliza.Entities.SiseServiceSettings
+  langs:
+  - csharp
+  - vb
+  name: ServiceBaseURL
+  nameWithType: SiseServiceSettings.ServiceBaseURL
+  fullName: GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SiseServiceSettings.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: ServiceBaseURL
+    path: Entities/SiseServiceSettings.cs
+    startLine: 7
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nURL del endpoint del Sise para hacerle peticiones\n"
+  example: []
+  syntax:
+    content: public string ServiceBaseURL { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property ServiceBaseURL As String
+  overload: GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.SiseServiceSettings.Resource
+  commentId: P:GestorEmisionPoliza.Entities.SiseServiceSettings.Resource
+  id: Resource
+  parent: GestorEmisionPoliza.Entities.SiseServiceSettings
+  langs:
+  - csharp
+  - vb
+  name: Resource
+  nameWithType: SiseServiceSettings.Resource
+  fullName: GestorEmisionPoliza.Entities.SiseServiceSettings.Resource
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SiseServiceSettings.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Resource
+    path: Entities/SiseServiceSettings.cs
+    startLine: 11
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nRecurso del endpoint del Sise para hacerle peticiones\n"
+  example: []
+  syntax:
+    content: public string Resource { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Resource As String
+  overload: GestorEmisionPoliza.Entities.SiseServiceSettings.Resource*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL*
+  commentId: Overload:GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL
+  name: ServiceBaseURL
+  nameWithType: SiseServiceSettings.ServiceBaseURL
+  fullName: GestorEmisionPoliza.Entities.SiseServiceSettings.ServiceBaseURL
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GestorEmisionPoliza.Entities.SiseServiceSettings.Resource*
+  commentId: Overload:GestorEmisionPoliza.Entities.SiseServiceSettings.Resource
+  name: Resource
+  nameWithType: SiseServiceSettings.Resource
+  fullName: GestorEmisionPoliza.Entities.SiseServiceSettings.Resource

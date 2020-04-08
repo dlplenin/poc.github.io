@@ -1,0 +1,67 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  id: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  - GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+  - GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  - GestorEmisionPoliza.Entities.RespuestaSise
+  - GestorEmisionPoliza.Entities.SiseServiceSettings
+  - GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  - GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  commentId: T:GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  name: BitacoraIntentosSise
+  nameWithType: BitacoraIntentosSise
+  fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+  commentId: T:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+  parent: GestorEmisionPoliza.Entities
+  name: EstadoSolicitudEmisionPolizaRequest
+  nameWithType: EstadoSolicitudEmisionPolizaRequest
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  commentId: T:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  parent: GestorEmisionPoliza.Entities
+  name: EstadoSolicitudEmisionPolizaResponse
+  nameWithType: EstadoSolicitudEmisionPolizaResponse
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+- uid: GestorEmisionPoliza.Entities.RespuestaSise
+  commentId: T:GestorEmisionPoliza.Entities.RespuestaSise
+  parent: GestorEmisionPoliza.Entities
+  name: RespuestaSise
+  nameWithType: RespuestaSise
+  fullName: GestorEmisionPoliza.Entities.RespuestaSise
+- uid: GestorEmisionPoliza.Entities.SiseServiceSettings
+  commentId: T:GestorEmisionPoliza.Entities.SiseServiceSettings
+  name: SiseServiceSettings
+  nameWithType: SiseServiceSettings
+  fullName: GestorEmisionPoliza.Entities.SiseServiceSettings
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  commentId: T:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  parent: GestorEmisionPoliza.Entities
+  name: SolicitudEmisionPolizaDTO
+  nameWithType: SolicitudEmisionPolizaDTO
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  commentId: T:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  name: SolicitudEmisionPolizaResponse
+  nameWithType: SolicitudEmisionPolizaResponse
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities

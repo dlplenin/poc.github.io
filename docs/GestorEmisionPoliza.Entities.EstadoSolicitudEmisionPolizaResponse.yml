@@ -1,0 +1,285 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  commentId: T:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  id: EstadoSolicitudEmisionPolizaResponse
+  parent: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  - GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  - GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket
+  langs:
+  - csharp
+  - vb
+  name: EstadoSolicitudEmisionPolizaResponse
+  nameWithType: EstadoSolicitudEmisionPolizaResponse
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/EstadoSolicitudEmisionPolizaResponse.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: EstadoSolicitudEmisionPolizaResponse
+    path: Entities/EstadoSolicitudEmisionPolizaResponse.cs
+    startLine: 4
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: public class EstadoSolicitudEmisionPolizaResponse
+    content.vb: Public Class EstadoSolicitudEmisionPolizaResponse
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket
+  commentId: P:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket
+  id: Ticket
+  parent: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: EstadoSolicitudEmisionPolizaResponse.Ticket
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/EstadoSolicitudEmisionPolizaResponse.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Ticket
+    path: Entities/EstadoSolicitudEmisionPolizaResponse.cs
+    startLine: 9
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nId del registro en BDD\n"
+  example: []
+  syntax:
+    content: public string Ticket { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ticket As String
+  overload: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  commentId: P:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  id: ProcesadaSISE
+  parent: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  langs:
+  - csharp
+  - vb
+  name: ProcesadaSISE
+  nameWithType: EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/EstadoSolicitudEmisionPolizaResponse.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: ProcesadaSISE
+    path: Entities/EstadoSolicitudEmisionPolizaResponse.cs
+    startLine: 13
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nIndica si ha sido procesado (correctamente) por el Sise\n"
+  example: []
+  syntax:
+    content: public bool ProcesadaSISE { get; set; }
+    parameters: []
+    return:
+      type: System.Boolean
+    content.vb: Public Property ProcesadaSISE As Boolean
+  overload: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  commentId: P:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  id: BitacoraSise
+  parent: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  langs:
+  - csharp
+  - vb
+  name: BitacoraSise
+  nameWithType: EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/EstadoSolicitudEmisionPolizaResponse.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: BitacoraSise
+    path: Entities/EstadoSolicitudEmisionPolizaResponse.cs
+    startLine: 17
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nBitacora de intentos de proceso al Sise\n"
+  example: []
+  syntax:
+    content: public List<BitacoraIntentosSise> BitacoraSise { get; set; }
+    parameters: []
+    return:
+      type: System.Collections.Generic.List{GestorEmisionPoliza.Entities.BitacoraIntentosSise}
+    content.vb: Public Property BitacoraSise As List(Of BitacoraIntentosSise)
+  overload: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket*
+  commentId: Overload:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket
+  name: Ticket
+  nameWithType: EstadoSolicitudEmisionPolizaResponse.Ticket
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.Ticket
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE*
+  commentId: Overload:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  name: ProcesadaSISE
+  nameWithType: EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.ProcesadaSISE
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise*
+  commentId: Overload:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  name: BitacoraSise
+  nameWithType: EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse.BitacoraSise
+- uid: System.Collections.Generic.List{GestorEmisionPoliza.Entities.BitacoraIntentosSise}
+  commentId: T:System.Collections.Generic.List{GestorEmisionPoliza.Entities.BitacoraIntentosSise}
+  parent: System.Collections.Generic
+  definition: System.Collections.Generic.List`1
+  name: List<BitacoraIntentosSise>
+  nameWithType: List<BitacoraIntentosSise>
+  fullName: System.Collections.Generic.List<GestorEmisionPoliza.Entities.BitacoraIntentosSise>
+  nameWithType.vb: List(Of BitacoraIntentosSise)
+  fullName.vb: System.Collections.Generic.List(Of GestorEmisionPoliza.Entities.BitacoraIntentosSise)
+  name.vb: List(Of BitacoraIntentosSise)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+    name: BitacoraIntentosSise
+    nameWithType: BitacoraIntentosSise
+    fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+    name: BitacoraIntentosSise
+    nameWithType: BitacoraIntentosSise
+    fullName: GestorEmisionPoliza.Entities.BitacoraIntentosSise
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic.List`1
+  commentId: T:System.Collections.Generic.List`1
+  isExternal: true
+  name: List<T>
+  nameWithType: List<T>
+  fullName: System.Collections.Generic.List<T>
+  nameWithType.vb: List(Of T)
+  fullName.vb: System.Collections.Generic.List(Of T)
+  name.vb: List(Of T)
+  spec.csharp:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Collections.Generic.List`1
+    name: List
+    nameWithType: List
+    fullName: System.Collections.Generic.List
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: T
+    nameWithType: T
+    fullName: T
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Collections.Generic
+  commentId: N:System.Collections.Generic
+  isExternal: true
+  name: System.Collections.Generic
+  nameWithType: System.Collections.Generic
+  fullName: System.Collections.Generic

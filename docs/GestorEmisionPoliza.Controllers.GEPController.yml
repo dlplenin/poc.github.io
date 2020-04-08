@@ -1,0 +1,527 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Controllers.GEPController
+  commentId: T:GestorEmisionPoliza.Controllers.GEPController
+  id: GEPController
+  parent: GestorEmisionPoliza.Controllers
+  children:
+  - GestorEmisionPoliza.Controllers.GEPController.#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)
+  - GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  - GestorEmisionPoliza.Controllers.GEPController.GetEnvironment
+  - GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus(GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest)
+  langs:
+  - csharp
+  - vb
+  name: GEPController
+  nameWithType: GEPController
+  fullName: GestorEmisionPoliza.Controllers.GEPController
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Controllers/GEPController.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: GEPController
+    path: Controllers/GEPController.cs
+    startLine: 8
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Controllers
+  syntax:
+    content: >-
+      [Route("api/solicitud/emision")]
+
+      public class GEPController : Controller, IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable
+    content.vb: >-
+      <Route("api/solicitud/emision")>
+
+      Public Class GEPController
+          Inherits Controller
+          Implements IActionFilter, IAsyncActionFilter, IFilterMetadata, IDisposable
+  inheritance:
+  - System.Object
+  - Microsoft.AspNetCore.Mvc.ControllerBase
+  - Microsoft.AspNetCore.Mvc.Controller
+  implements:
+  - Microsoft.AspNetCore.Mvc.Filters.IActionFilter
+  - Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter
+  - Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata
+  - System.IDisposable
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+    ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: api/solicitud/emision
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Controllers.GEPController.#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)
+  commentId: M:GestorEmisionPoliza.Controllers.GEPController.#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)
+  id: '#ctor(GestorEmisionPoliza.Servicio.IGEPServicio)'
+  parent: GestorEmisionPoliza.Controllers.GEPController
+  langs:
+  - csharp
+  - vb
+  name: GEPController(IGEPServicio)
+  nameWithType: GEPController.GEPController(IGEPServicio)
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GEPController(GestorEmisionPoliza.Servicio.IGEPServicio)
+  type: Constructor
+  source:
+    remote:
+      path: GestorEmisionPoliza/Controllers/GEPController.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: .ctor
+    path: Controllers/GEPController.cs
+    startLine: 17
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Controllers
+  summary: "\n\n"
+  example: []
+  syntax:
+    content: public GEPController(IGEPServicio gepServicio)
+    parameters:
+    - id: gepServicio
+      type: GestorEmisionPoliza.Servicio.IGEPServicio
+      description: Inyección de dependencia del servicio
+    content.vb: Public Sub New(gepServicio As IGEPServicio)
+  overload: GestorEmisionPoliza.Controllers.GEPController.#ctor*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  commentId: M:GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  id: GestionarCreacion(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  parent: GestorEmisionPoliza.Controllers.GEPController
+  langs:
+  - csharp
+  - vb
+  name: GestionarCreacion(SolicitudEmisionPolizaDTO)
+  nameWithType: GEPController.GestionarCreacion(SolicitudEmisionPolizaDTO)
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion(GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Controllers/GEPController.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: GestionarCreacion
+    path: Controllers/GEPController.cs
+    startLine: 27
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Controllers
+  summary: "\nPeticíon de creación de póliza\n"
+  example: []
+  syntax:
+    content: >-
+      [HttpPost]
+
+      public Task<ActionResult> GestionarCreacion([FromBody] SolicitudEmisionPolizaDTO request)
+    parameters:
+    - id: request
+      type: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+      description: Objeto e el que se recibe el payload de la póliza como string
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.FromBodyAttribute
+        ctor: Microsoft.AspNetCore.Mvc.FromBodyAttribute.#ctor
+        arguments: []
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult}
+      description: ActionResult
+    content.vb: >-
+      <HttpPost>
+
+      Public Function GestionarCreacion(request As SolicitudEmisionPolizaDTO) As Task(Of ActionResult)
+  overload: GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpPostAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpPostAttribute.#ctor
+    arguments: []
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus(GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest)
+  commentId: M:GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus(GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest)
+  id: GetInvoiceStatus(GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest)
+  parent: GestorEmisionPoliza.Controllers.GEPController
+  langs:
+  - csharp
+  - vb
+  name: GetInvoiceStatus(EstadoSolicitudEmisionPolizaRequest)
+  nameWithType: GEPController.GetInvoiceStatus(EstadoSolicitudEmisionPolizaRequest)
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus(GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest)
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Controllers/GEPController.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: GetInvoiceStatus
+    path: Controllers/GEPController.cs
+    startLine: 39
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Controllers
+  summary: "\nConsulta de una solicitud de creación de póliza.\n"
+  example: []
+  syntax:
+    content: >-
+      [HttpGet]
+
+      [Produces(typeof(EstadoSolicitudEmisionPolizaResponse))]
+
+      public Task<IActionResult> GetInvoiceStatus([FromQuery] EstadoSolicitudEmisionPolizaRequest request)
+    parameters:
+    - id: request
+      type: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+      description: Ticket o Id del registro
+      attributes:
+      - type: Microsoft.AspNetCore.Mvc.FromQueryAttribute
+        ctor: Microsoft.AspNetCore.Mvc.FromQueryAttribute.#ctor
+        arguments: []
+    return:
+      type: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+      description: IActionResult
+    content.vb: >-
+      <HttpGet>
+
+      <Produces(GetType(EstadoSolicitudEmisionPolizaResponse))>
+
+      Public Function GetInvoiceStatus(request As EstadoSolicitudEmisionPolizaRequest) As Task(Of IActionResult)
+  overload: GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Mvc.ProducesAttribute
+    ctor: Microsoft.AspNetCore.Mvc.ProducesAttribute.#ctor(System.Type)
+    arguments:
+    - type: System.Type
+      value: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaResponse
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+- uid: GestorEmisionPoliza.Controllers.GEPController.GetEnvironment
+  commentId: M:GestorEmisionPoliza.Controllers.GEPController.GetEnvironment
+  id: GetEnvironment
+  parent: GestorEmisionPoliza.Controllers.GEPController
+  langs:
+  - csharp
+  - vb
+  name: GetEnvironment()
+  nameWithType: GEPController.GetEnvironment()
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GetEnvironment()
+  type: Method
+  source:
+    remote:
+      path: GestorEmisionPoliza/Controllers/GEPController.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: GetEnvironment
+    path: Controllers/GEPController.cs
+    startLine: 51
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Controllers
+  summary: "\nConsultar el valor de la variable de entorno ASPNETCORE_ENVIRONMENT\n"
+  example: []
+  syntax:
+    content: >-
+      [HttpGet]
+
+      [Route("/aspnetcore_environment_test")]
+
+      public IActionResult GetEnvironment()
+    return:
+      type: Microsoft.AspNetCore.Mvc.IActionResult
+      description: ASPNETCORE_ENVIRONMENT
+    content.vb: >-
+      <HttpGet>
+
+      <Route("/aspnetcore_environment_test")>
+
+      Public Function GetEnvironment As IActionResult
+  overload: GestorEmisionPoliza.Controllers.GEPController.GetEnvironment*
+  attributes:
+  - type: Microsoft.AspNetCore.Mvc.HttpGetAttribute
+    ctor: Microsoft.AspNetCore.Mvc.HttpGetAttribute.#ctor
+    arguments: []
+  - type: Microsoft.AspNetCore.Mvc.RouteAttribute
+    ctor: Microsoft.AspNetCore.Mvc.RouteAttribute.#ctor(System.String)
+    arguments:
+    - type: System.String
+      value: /aspnetcore_environment_test
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Controllers
+  commentId: N:GestorEmisionPoliza.Controllers
+  name: GestorEmisionPoliza.Controllers
+  nameWithType: GestorEmisionPoliza.Controllers
+  fullName: GestorEmisionPoliza.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.AspNetCore.Mvc.ControllerBase
+  commentId: T:Microsoft.AspNetCore.Mvc.ControllerBase
+  parent: Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: ControllerBase
+  nameWithType: ControllerBase
+  fullName: Microsoft.AspNetCore.Mvc.ControllerBase
+- uid: Microsoft.AspNetCore.Mvc.Controller
+  commentId: T:Microsoft.AspNetCore.Mvc.Controller
+  parent: Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: Controller
+  nameWithType: Controller
+  fullName: Microsoft.AspNetCore.Mvc.Controller
+- uid: Microsoft.AspNetCore.Mvc.Filters.IActionFilter
+  commentId: T:Microsoft.AspNetCore.Mvc.Filters.IActionFilter
+  parent: Microsoft.AspNetCore.Mvc.Filters
+  isExternal: true
+  name: IActionFilter
+  nameWithType: IActionFilter
+  fullName: Microsoft.AspNetCore.Mvc.Filters.IActionFilter
+- uid: Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter
+  commentId: T:Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter
+  parent: Microsoft.AspNetCore.Mvc.Filters
+  isExternal: true
+  name: IAsyncActionFilter
+  nameWithType: IAsyncActionFilter
+  fullName: Microsoft.AspNetCore.Mvc.Filters.IAsyncActionFilter
+- uid: Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata
+  commentId: T:Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata
+  parent: Microsoft.AspNetCore.Mvc.Filters
+  isExternal: true
+  name: IFilterMetadata
+  nameWithType: IFilterMetadata
+  fullName: Microsoft.AspNetCore.Mvc.Filters.IFilterMetadata
+- uid: System.IDisposable
+  commentId: T:System.IDisposable
+  parent: System
+  isExternal: true
+  name: IDisposable
+  nameWithType: IDisposable
+  fullName: System.IDisposable
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Microsoft.AspNetCore.Mvc
+  commentId: N:Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: Microsoft.AspNetCore.Mvc
+  nameWithType: Microsoft.AspNetCore.Mvc
+  fullName: Microsoft.AspNetCore.Mvc
+- uid: Microsoft.AspNetCore.Mvc.Filters
+  commentId: N:Microsoft.AspNetCore.Mvc.Filters
+  isExternal: true
+  name: Microsoft.AspNetCore.Mvc.Filters
+  nameWithType: Microsoft.AspNetCore.Mvc.Filters
+  fullName: Microsoft.AspNetCore.Mvc.Filters
+- uid: GestorEmisionPoliza.Controllers.GEPController.#ctor*
+  commentId: Overload:GestorEmisionPoliza.Controllers.GEPController.#ctor
+  name: GEPController
+  nameWithType: GEPController.GEPController
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GEPController
+- uid: GestorEmisionPoliza.Servicio.IGEPServicio
+  commentId: T:GestorEmisionPoliza.Servicio.IGEPServicio
+  parent: GestorEmisionPoliza.Servicio
+  name: IGEPServicio
+  nameWithType: IGEPServicio
+  fullName: GestorEmisionPoliza.Servicio.IGEPServicio
+- uid: GestorEmisionPoliza.Servicio
+  commentId: N:GestorEmisionPoliza.Servicio
+  name: GestorEmisionPoliza.Servicio
+  nameWithType: GestorEmisionPoliza.Servicio
+  fullName: GestorEmisionPoliza.Servicio
+- uid: GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion*
+  commentId: Overload:GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion
+  name: GestionarCreacion
+  nameWithType: GEPController.GestionarCreacion
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GestionarCreacion
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  commentId: T:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+  parent: GestorEmisionPoliza.Entities
+  name: SolicitudEmisionPolizaDTO
+  nameWithType: SolicitudEmisionPolizaDTO
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaDTO
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.ActionResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<ActionResult>
+  nameWithType: Task<ActionResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.ActionResult>
+  nameWithType.vb: Task(Of ActionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.ActionResult)
+  name.vb: Task(Of ActionResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult
+    name: ActionResult
+    nameWithType: ActionResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.ActionResult
+    name: ActionResult
+    nameWithType: ActionResult
+    fullName: Microsoft.AspNetCore.Mvc.ActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Threading.Tasks.Task`1
+  commentId: T:System.Threading.Tasks.Task`1
+  isExternal: true
+  name: Task<TResult>
+  nameWithType: Task<TResult>
+  fullName: System.Threading.Tasks.Task<TResult>
+  nameWithType.vb: Task(Of TResult)
+  fullName.vb: System.Threading.Tasks.Task(Of TResult)
+  name.vb: Task(Of TResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - name: TResult
+    nameWithType: TResult
+    fullName: TResult
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Threading.Tasks
+  commentId: N:System.Threading.Tasks
+  isExternal: true
+  name: System.Threading.Tasks
+  nameWithType: System.Threading.Tasks
+  fullName: System.Threading.Tasks
+- uid: GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus*
+  commentId: Overload:GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus
+  name: GetInvoiceStatus
+  nameWithType: GEPController.GetInvoiceStatus
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GetInvoiceStatus
+- uid: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+  commentId: T:GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+  parent: GestorEmisionPoliza.Entities
+  name: EstadoSolicitudEmisionPolizaRequest
+  nameWithType: EstadoSolicitudEmisionPolizaRequest
+  fullName: GestorEmisionPoliza.Entities.EstadoSolicitudEmisionPolizaRequest
+- uid: System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+  commentId: T:System.Threading.Tasks.Task{Microsoft.AspNetCore.Mvc.IActionResult}
+  parent: System.Threading.Tasks
+  definition: System.Threading.Tasks.Task`1
+  name: Task<IActionResult>
+  nameWithType: Task<IActionResult>
+  fullName: System.Threading.Tasks.Task<Microsoft.AspNetCore.Mvc.IActionResult>
+  nameWithType.vb: Task(Of IActionResult)
+  fullName.vb: System.Threading.Tasks.Task(Of Microsoft.AspNetCore.Mvc.IActionResult)
+  name.vb: Task(Of IActionResult)
+  spec.csharp:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: <
+    nameWithType: <
+    fullName: <
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: '>'
+    nameWithType: '>'
+    fullName: '>'
+  spec.vb:
+  - uid: System.Threading.Tasks.Task`1
+    name: Task
+    nameWithType: Task
+    fullName: System.Threading.Tasks.Task
+    isExternal: true
+  - name: '(Of '
+    nameWithType: '(Of '
+    fullName: '(Of '
+  - uid: Microsoft.AspNetCore.Mvc.IActionResult
+    name: IActionResult
+    nameWithType: IActionResult
+    fullName: Microsoft.AspNetCore.Mvc.IActionResult
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: GestorEmisionPoliza.Controllers.GEPController.GetEnvironment*
+  commentId: Overload:GestorEmisionPoliza.Controllers.GEPController.GetEnvironment
+  name: GetEnvironment
+  nameWithType: GEPController.GetEnvironment
+  fullName: GestorEmisionPoliza.Controllers.GEPController.GetEnvironment
+- uid: Microsoft.AspNetCore.Mvc.IActionResult
+  commentId: T:Microsoft.AspNetCore.Mvc.IActionResult
+  parent: Microsoft.AspNetCore.Mvc
+  isExternal: true
+  name: IActionResult
+  nameWithType: IActionResult
+  fullName: Microsoft.AspNetCore.Mvc.IActionResult

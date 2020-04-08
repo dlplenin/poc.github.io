@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Servicio.Implementacion
+  commentId: N:GestorEmisionPoliza.Servicio.Implementacion
+  id: GestorEmisionPoliza.Servicio.Implementacion
+  children:
+  - GestorEmisionPoliza.Servicio.Implementacion.GEPServicio
+  langs:
+  - csharp
+  - vb
+  name: GestorEmisionPoliza.Servicio.Implementacion
+  nameWithType: GestorEmisionPoliza.Servicio.Implementacion
+  fullName: GestorEmisionPoliza.Servicio.Implementacion
+  type: Namespace
+  assemblies:
+  - GestorEmisionPoliza
+references:
+- uid: GestorEmisionPoliza.Servicio.Implementacion.GEPServicio
+  commentId: T:GestorEmisionPoliza.Servicio.Implementacion.GEPServicio
+  name: GEPServicio
+  nameWithType: GEPServicio
+  fullName: GestorEmisionPoliza.Servicio.Implementacion.GEPServicio

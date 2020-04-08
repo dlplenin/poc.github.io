@@ -1,0 +1,105 @@
+### YamlMime:ManagedReference
+items:
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  commentId: T:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  id: SolicitudEmisionPolizaResponse
+  parent: GestorEmisionPoliza.Entities
+  children:
+  - GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket
+  langs:
+  - csharp
+  - vb
+  name: SolicitudEmisionPolizaResponse
+  nameWithType: SolicitudEmisionPolizaResponse
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  type: Class
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SolicitudEmisionPolizaResponse.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: SolicitudEmisionPolizaResponse
+    path: Entities/SolicitudEmisionPolizaResponse.cs
+    startLine: 2
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  syntax:
+    content: public class SolicitudEmisionPolizaResponse
+    content.vb: Public Class SolicitudEmisionPolizaResponse
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket
+  commentId: P:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket
+  id: Ticket
+  parent: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse
+  langs:
+  - csharp
+  - vb
+  name: Ticket
+  nameWithType: SolicitudEmisionPolizaResponse.Ticket
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket
+  type: Property
+  source:
+    remote:
+      path: GestorEmisionPoliza/Entities/SolicitudEmisionPolizaResponse.cs
+      branch: master
+      repo: http://machangara.ddns.net:3397/diego.pardo/gestoremisionpoliza.git
+    id: Ticket
+    path: Entities/SolicitudEmisionPolizaResponse.cs
+    startLine: 7
+  assemblies:
+  - GestorEmisionPoliza
+  namespace: GestorEmisionPoliza.Entities
+  summary: "\nId del registro en la BDD\n"
+  example: []
+  syntax:
+    content: public string Ticket { get; set; }
+    parameters: []
+    return:
+      type: System.String
+    content.vb: Public Property Ticket As String
+  overload: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket*
+  modifiers.csharp:
+  - public
+  - get
+  - set
+  modifiers.vb:
+  - Public
+references:
+- uid: GestorEmisionPoliza.Entities
+  commentId: N:GestorEmisionPoliza.Entities
+  name: GestorEmisionPoliza.Entities
+  nameWithType: GestorEmisionPoliza.Entities
+  fullName: GestorEmisionPoliza.Entities
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket*
+  commentId: Overload:GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket
+  name: Ticket
+  nameWithType: SolicitudEmisionPolizaResponse.Ticket
+  fullName: GestorEmisionPoliza.Entities.SolicitudEmisionPolizaResponse.Ticket
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  name: String
+  nameWithType: String
+  fullName: System.String
